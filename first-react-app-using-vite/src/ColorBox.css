@@ -1,0 +1,5 @@
+.ColorBox{
+    width: 450px;
+     display:flex;
+     flex-wrap:wrap
+}   
