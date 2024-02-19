@@ -3,6 +3,7 @@ import './App.css'
 import CasinoSlots from './CasinoSlots'
 import PropertyListing from './PropertyListing';
 import ColorBox from './ColorBox';
+import ScoreKeeper from './ScoreKeeper';
 
 function App() {
   const properties = [
@@ -17,8 +18,11 @@ function App() {
   const colors = ["#75fef8", "#773140", "#71c34b", "#ac642b", "#dc8dd9", "#f35540", "#9110c7","#ef7b2f"]
   return (
     <div>
-      <ColorBox colors={colors} />
+      <ScoreKeeper playerCount={5} target= {10}/>
     </div>
+    // <div>
+    //   <ColorBox colors={colors} />
+    // </div>
     // <div>
     //   <PropertyListing properties={properties} />
     // </div>
